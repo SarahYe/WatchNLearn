@@ -1,0 +1,79 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+
+@font-face {
+	font-family: 'ritaglio';
+	src: url('ritaglio.ttf');
+
+  font-family: 'Blanche_de_la_Fontaine';
+  src: url(Blanche_de_la_Fontaine.ttf);
+}
+
+html,body {
+  height:100%;
+}
+
+h1 {
+  font-family: 'Antic Slab', serif;
+  font-size:80px;
+  color:#DDCCEE;
+  
+}
+
+#logo { 
+  left : 20px;
+  top : 20px; 
+}
+
+#WatchNLearn{
+  color: white;
+  font-family: 'Blanche_de_la_Fontaine', serif;
+}
+
+.row {
+  margin-top: 130px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.lead {
+	color:#DDCCEE;
+}
+
+
+/* Custom container */
+.container-full {
+  margin: auto;
+  width: 100%;
+  min-height:100%;
+  background-color:#110022;
+  color:#eee;
+  overflow:hidden;
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.v-center {
+  margin-top:7%;
+}
+
+.beginner
+{
+  align-content: left;
+}
+
+.intermediate
+{
+  align-content: middle;
+}
+
+.advanced
+{
+    align-content: right 
+}
