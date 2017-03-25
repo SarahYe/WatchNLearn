@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    < p;
 
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -39,66 +40,84 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="home.html">WatchNLearn</a>
-          <a href="home.html"><img src="assets/img/portfolio/eye4.png" class="img-responsive" width="50" height="50"></a>
+          <a class="navbar-brand" href="index.php">WatchNLearn</a>
+          <a href="index.php"><img src="assets/img/portfolio/eye4.png" class="img-responsive" width="50" height="50"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Level <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="beginner.html"> Beginner </a></li>
-                <li><a href="intermediate.html"> Intermediate </a></li>
-                <li><a href="advanced.html"> Advanced </a></li>
+                <li class="active"><a href="beginner.php"> Beginner </a></li>
+                <li><a href="intermediate.php"> Intermediate </a></li>
+                <li><a href="advanced.php"> Advanced </a></li>
               </ul>
             </li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.php">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
 
-	<div id="headerwrap">
+	<div id="workwrap">
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3">
-					<h4>WELCOME TO</h4>
-					<h1> <span id="WatchNLearn">WatchNLearn</span></h1>
-					<h4>blablaaaaaaaaaaaaa</h4>
-           <br>
-          <formclass class="col-lg-9">
-              <div class="input-group input-group-lg col-sm-offset-4 col-sm-4">
-              <input type="text" class="center-block input-lg" title="Enter your name." placeholder="Enter your name"> <br>
-                <a href="home.html#level"><span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button"> Valider </button></span></a>
-              </div>
-          </form>
+					<h4>********************************************************</h4>
+					<h1>BEGINNER</h1>
+					<h4>***********Explication du niveau et Objectifs***********</h4>
 				</div>
 			</div><! --/row -->
 	    </div> <!-- /container -->
-	</div><! --/headerwrap -->
+	</div><! --/workwrap -->
 	
-	<section id="level"></section>
+	<section id="works"></section>
 	<div class="container">
 		<div class="row centered mt mb">
 
-      <div class="page-header">
-        <h1>Levels</h1>
-      </div>
-			
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="beginner.html"><img src="assets/img/portfolio/beginner2.jpg" class="img-responsive"></a>
+			<div class="page-header">
+				<h3>Categories</h3>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="intermediate.html"><img src="assets/img/portfolio/intermediate2.png" class="img-responsive"></a>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+					<div class="thumbnail">
+						<img src="assets/img/portfolio/kids.png" alt="kids" style="width:100%">
+						<div class="caption list-group">
+							<br>
+							<br>
+							<ul>
+                <li><a href="vb11.php"> Time </a></li>
+                <li><a href="vb2.php">Day</li> 
+                <li><a href="vb3.php">Weather</li> 
+                <li><a href="vb4.php">Lorem ipsum</li> 
+                <li><a href="vb5.php">Lorem ipsum</li> 
+              </ul>
+						</div>
+					</div>
+  				</div>
+ 				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+ 					<div class="thumbnail">
+      					<img src="assets/img/portfolio/conversation2.jpg" class="img-rounded" alt="conversation" style="width:100%">
+      					<div class="caption">
+      						<p> Lorem ipsum donecid elt non mi orta gravida at eget metus</p>
+      					</div>
+      				</div>
+  				</div>
+ 				<div class="col-lg-4 col-md-4 col-sm-4 gallery"> 
+ 					<div class="thumbnail">
+ 						<img src="assets/img/portfolio/grammar.jpg" class="img-rounded" alt="grammar" width="250" height="150">
+      					<div class="caption">
+      						<p>Lorem ipsum donecid elt non mi orta gravida at eget metus</p>
+      					</div>
+      				</div>
+  				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="advanced.html"><img src="assets/img/portfolio/advanced1.jpg" class="img-responsive" class = "img-circle"></a>
-			</div>
-		</div>
+
+		</div> <! --/row -->
 	</div><! --/container -->
-	
 
 	<div id="footerwrap">
 		<div class="container">
@@ -108,7 +127,7 @@
 				</div>
 
 				<div class="col-lg-1">
-					 <a href="home.html"><img src="assets/img/portfolio/eye4.png" class="img-responsive" alt="WatchNLearn" width="50" height="50"></a>
+					 <a href="index.php"><img src="assets/img/portfolio/eye4.png" class="img-responsive" alt="WatchNLearn" width="50" height="50"></a>
 				</div>
 				<div class="col-lg-5">
 					<p>TELECOM Nancy</p>
@@ -116,7 +135,6 @@
 			</div>
 		</div>
 	</div><! --/footerwrap -->
-	
 
 
     <!-- Bootstrap core JavaScript

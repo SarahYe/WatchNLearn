@@ -1,0 +1,25 @@
+.Correct
+{
+	color: green;
+}
+
+.Incorrect
+{
+	color: red;
+}
+
+h3
+{
+	color:#4d0026;
+	text-decoration: overline;
+}
+
+p
+{
+	font-style: italic;
+}
+
+col-lg-12 centered
+{
+	background-color: gray;
+}
